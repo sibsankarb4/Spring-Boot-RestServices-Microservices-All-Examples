@@ -11,6 +11,7 @@ The service results should be Cacheable. HTTP cache, for example.
 Service should assume a Layered architecture. Client should not assume direct connection to server - it might be getting info from a middle layer - cache.
 
 ====================================================================
+
 Rest Services in this Guide
 In this guide, we will create three services using proper URIs and HTTP methods:
 @GetMapping("/students/{studentId}/courses"): You can ask the courses a specific student has registered for using request method Get and example uri /students/Student1/courses.
