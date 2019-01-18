@@ -9,6 +9,7 @@ The interface (URL) is uniform and exposing resources.
 The service is stateless.
 The service results should be Cacheable. HTTP cache, for example.
 Service should assume a Layered architecture. Client should not assume direct connection to server - it might be getting info from a middle layer - cache.
+
 =====================================================================================================================================
 Rest Services in this Guide
 In this guide, we will create three services using proper URIs and HTTP methods:
